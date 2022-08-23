@@ -25,6 +25,7 @@ const URLShortnerForm = () => {
     // check url
     const URL = !constant.URL_PROTOCOLE.test(input) ? `http://${input}` : input;
     await saveToFirebase(URL, randString);
+    Navigator.vibrate();
   };
   const clearHandler = () => {
     setInput("");
