@@ -6,7 +6,7 @@ import Redirect from "./Components/Redirect/";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/shorturl">
         <Routes>
           <Route path="/" element={<URLShortnerForm />} />
           <Route path="/:id" element={<Redirect />} />
