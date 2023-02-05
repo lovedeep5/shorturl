@@ -1,6 +1,6 @@
 {
   "name": "urlshortner",
-  "homepage": "http://lovedeep5.github.io/short-url",
+  "homepage": "http://lovedeep5.github.io/shorturl",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
